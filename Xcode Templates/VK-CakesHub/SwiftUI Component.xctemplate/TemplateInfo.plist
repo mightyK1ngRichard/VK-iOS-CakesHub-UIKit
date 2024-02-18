@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Icon</key>
+	<string>TemplateIcon</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Common template for creating design component</string>
+	<key>Summary</key>
+	<string>Use this template if you want to add a new design component to the library</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Component</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Component Name (AvatarView):</string>
+			<key>Description</key>
+			<string>The name of the design component</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Component</string>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>___FILEBASENAME___/___FILEBASENAME___.swift</string>
+		<string>___FILEBASENAME___/___FILEBASENAME___+Preview.swift</string>
+		<string>___FILEBASENAME___/Configuration/___FILEBASENAME___+Configuration.swift</string>
+		<string>___FILEBASENAME___/Configuration/___FILEBASENAME___+Defaults.swift</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___FILEBASENAME___/___FILEBASENAME___.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/___FILEBASENAME___.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+			</array>
+		</dict>
+		<key>___FILEBASENAME___/___FILEBASENAME___+Preview.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/___FILEBASENAME___+Preview.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+			</array>
+		</dict>
+		<key>___FILEBASENAME___/Configuration/___FILEBASENAME___+Configuration.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/Configuration/___FILEBASENAME___+Configuration.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>Configuration</string>
+			</array>
+		</dict>
+		<key>___FILEBASENAME___/Configuration/___FILEBASENAME___+Defaults.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/Configuration/___FILEBASENAME___+Defaults.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>Configuration</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportsSwiftPackage</key>
+	<true/>
+	<key>Icon</key>
+	<string>TemplateIcon</string>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Common template for MVVM-C CakesHub project</string>
+	<key>Summary</key>
+	<string>Use this template if you want to create new screen</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Component</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Screen Name (Main)</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>___FILEBASENAME___/View/___FILEBASENAME___ViewController.swift</string>
+		<string>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel.swift</string>
+		<string>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel+Mock.swift</string>
+		<string>___FILEBASENAME___/Coordinator/___FILEBASENAME___ViewControllerCoordinator.swift</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>ViewModel</string>
+			</array>
+		</dict>
+		<key>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel+Mock.swift</key>
+		<dict>
+			<key>Group</key>
+			<string>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel+Mock.swift</string>
+			<key>Path</key>
+			<string>___FILEBASENAME___/ViewModel/___FILEBASENAME___ViewModel+Mock.swift</string>
+		</dict>
+		<key>___FILEBASENAME___/View/___FILEBASENAME___ViewController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/View/___FILEBASENAME___ViewController.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>View</string>
+			</array>
+		</dict>
+		<key>___FILEBASENAME___/Coordinator/___FILEBASENAME___ViewControllerCordinator.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/Coordinator/___FILEBASENAME___ViewControllerCordinator.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>Coordinator</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,108 @@
+basePath: /api/v1
+definitions:
+  handler.errorResp:
+    properties:
+      description:
+        example: Описание ошибки
+        type: string
+      status:
+        example: error
+        type: string
+    type: object
+  model.AddNotificationReq:
+    properties:
+      sellerID:
+        type: integer
+      text:
+        example: Текст
+        type: string
+      title:
+        example: Заголовок
+        type: string
+      userID:
+        type: integer
+    type: object
+  model.AddNotificationRes:
+    properties:
+      id:
+        type: integer
+      status:
+        type: string
+    type: object
+  model.DeleteNotificationRes:
+    properties:
+      status:
+        type: string
+    type: object
+host: 192.168.1.37:6070
+info:
+  contact:
+    email: dimapermyakov55@gmail.com
+    name: API Support
+    url: https://github.com/mightyK1ngRichard
+  description: Маркетплейс по продаже тортов
+  title: CakesHub
+  version: "1.0"
+paths:
+  /notification:
+    post:
+      consumes:
+      - application/json
+      description: Добавляет новое уведомление.
+      parameters:
+      - description: Информация об уведомлении
+        in: body
+        name: notification
+        required: true
+        schema:
+          $ref: '#/definitions/model.AddNotificationReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Уведомление успешно добавлено
+          schema:
+            $ref: '#/definitions/model.AddNotificationRes'
+        "400":
+          description: Неверный запрос. Проверьте корректность данных уведомления.
+          schema:
+            $ref: '#/definitions/handler.errorResp'
+        "500":
+          description: Внутренняя ошибка сервера
+          schema:
+            $ref: '#/definitions/handler.errorResp'
+      summary: Добавление уведомления
+      tags:
+      - Уведомления
+  /notification/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Меняем статус уведомления на прочитано
+      parameters:
+      - description: ID уведомления
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Уведомление прочитано
+          schema:
+            $ref: '#/definitions/model.DeleteNotificationRes'
+        "400":
+          description: Неверный запрос
+          schema:
+            $ref: '#/definitions/handler.errorResp'
+        "500":
+          description: Внутренняя ошибка сервера
+          schema:
+            $ref: '#/definitions/handler.errorResp'
+      summary: Удаление уведомления
+      tags:
+      - Уведомления
+schemes:
+- http
+swagger: "2.0"

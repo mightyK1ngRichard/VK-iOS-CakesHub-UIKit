@@ -1,0 +1,1621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C07BFF82AD4BBD400ECF210 /* CHMThroughDataImageResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07BFF72AD4BBD400ECF210 /* CHMThroughDataImageResolver.swift */; };
+		2C07C0012AD4C2CB00ECF210 /* CHMImageView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07BFFD2AD4C2CB00ECF210 /* CHMImageView+Defaults.swift */; };
+		2C07C0022AD4C2CB00ECF210 /* CHMImageView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07BFFE2AD4C2CB00ECF210 /* CHMImageView+Configuration.swift */; };
+		2C07C0032AD4C2CB00ECF210 /* CHMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07BFFF2AD4C2CB00ECF210 /* CHMImageView.swift */; };
+		2C07C0042AD4C2CB00ECF210 /* CHMImageView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07C0002AD4C2CB00ECF210 /* CHMImageView+Preview.swift */; };
+		2C24DB442AFD82F300DA0A46 /* CHMProductCarouselView+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C24DB432AFD82F300DA0A46 /* CHMProductCarouselView+HandlerConfiguration.swift */; };
+		2C2C00042B000A0A0010BC27 /* UIImage+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C00032B000A090010BC27 /* UIImage+Extenstions.swift */; };
+		2C31162D2B1B8CD700FC63BD /* CHMIconTextView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3116292B1B8CD700FC63BD /* CHMIconTextView+Configuration.swift */; };
+		2C31162E2B1B8CD700FC63BD /* CHMIconTextView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31162A2B1B8CD700FC63BD /* CHMIconTextView+Defaults.swift */; };
+		2C31162F2B1B8CD700FC63BD /* CHMIconTextView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31162B2B1B8CD700FC63BD /* CHMIconTextView+Preview.swift */; };
+		2C3116302B1B8CD700FC63BD /* CHMIconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31162C2B1B8CD700FC63BD /* CHMIconTextView.swift */; };
+		2C320E0E2B179B6500CF1432 /* UIColors+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C320E0D2B179B6500CF1432 /* UIColors+Preview.swift */; };
+		2C326D462B1691CE006C9990 /* Modifiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C326D442B1691CE006C9990 /* Modifiy.swift */; };
+		2C326D472B1691CE006C9990 /* SwiftUIPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C326D452B1691CE006C9990 /* SwiftUIPreview.swift */; };
+		2C4C16582ACE2781002620E3 /* CHMUIKIT.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C16572ACE2781002620E3 /* CHMUIKIT.docc */; };
+		2C4C16592ACE2781002620E3 /* CHMUIKIT.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4C16562ACE2781002620E3 /* CHMUIKIT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4C16612ACE294D002620E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C16602ACE294D002620E3 /* Assets.xcassets */; };
+		2C4E7E592B1B995D0025D876 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7E582B1B995D0025D876 /* UIImage+Additions.swift */; };
+		2C58FF372AD086DD005473C6 /* CHMButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF332AD086DD005473C6 /* CHMButton+Configuration.swift */; };
+		2C58FF382AD086DD005473C6 /* CHMButton+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF342AD086DD005473C6 /* CHMButton+Defaults.swift */; };
+		2C58FF392AD086DD005473C6 /* CHMButton+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF352AD086DD005473C6 /* CHMButton+Preview.swift */; };
+		2C58FF3A2AD086DD005473C6 /* CHMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF362AD086DD005473C6 /* CHMButton.swift */; };
+		2C58FF3F2AD09C6A005473C6 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF3E2AD09C6A005473C6 /* CustomFont.swift */; };
+		2C58FF412AD09D03005473C6 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF402AD09D03005473C6 /* Dictionary+Extensions.swift */; };
+		2C58FF432AD09E25005473C6 /* LabelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF422AD09E25005473C6 /* LabelConfiguration.swift */; };
+		2C58FF452AD0A138005473C6 /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF442AD0A138005473C6 /* UIView+Extentions.swift */; };
+		2C58FF482AD0A3AF005473C6 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF472AD0A3AF005473C6 /* UILabel+Extensions.swift */; };
+		2C58FF4A2AD0ABEE005473C6 /* CHMButton+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF492AD0ABEE005473C6 /* CHMButton+HandlerConfiguration.swift */; };
+		2C58FF4C2AD0AC1B005473C6 /* ClearConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF4B2AD0AC1B005473C6 /* ClearConfigurationProtocol.swift */; };
+		2C58FF4E2AD0AC47005473C6 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58FF4D2AD0AC47005473C6 /* Typealias.swift */; };
+		2C5AD3D12AE87104001A98E0 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AD3D02AE87104001A98E0 /* UIColor+Additions.swift */; };
+		2C5AD3D52AE8734F001A98E0 /* UIColor+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AD3D42AE8734F001A98E0 /* UIColor+Extenstions.swift */; };
+		2C5F23852AD4D33000739D95 /* ImageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F23842AD4D33000739D95 /* ImageConfiguration.swift */; };
+		2C6BFDAB2AF96B9900AE73F9 /* UICollectionView+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BFDAA2AF96B9900AE73F9 /* UICollectionView+Extenstions.swift */; };
+		2C7331DD2AF829E200454680 /* CHMProductCard+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7331D92AF829E200454680 /* CHMProductCard+Configuration.swift */; };
+		2C7331DE2AF829E200454680 /* CHMProductCard+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7331DA2AF829E200454680 /* CHMProductCard+Defaults.swift */; };
+		2C7331DF2AF829E200454680 /* CHMProductCard+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7331DB2AF829E200454680 /* CHMProductCard+Preview.swift */; };
+		2C7331E02AF829E200454680 /* CHMProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7331DC2AF829E200454680 /* CHMProductCard.swift */; };
+		2C7331E42AF8314300454680 /* CHMProductImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7331E32AF8314300454680 /* CHMProductImageCell.swift */; };
+		2C794CA82B005C2F003E5AAE /* CHMAddingCakeView+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C794CA72B005C2F003E5AAE /* CHMAddingCakeView+HandlerConfiguration.swift */; };
+		2CA4BF072B000CA600EEF230 /* CGFloat+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BF062B000CA600EEF230 /* CGFloat+Extenstions.swift */; };
+		2CA4BF122B00174400EEF230 /* CHMPlusButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BF0E2B00174400EEF230 /* CHMPlusButton+Configuration.swift */; };
+		2CA4BF132B00174400EEF230 /* CHMPlusButton+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BF0F2B00174400EEF230 /* CHMPlusButton+Defaults.swift */; };
+		2CA4BF142B00174400EEF230 /* CHMPlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BF102B00174400EEF230 /* CHMPlusButton.swift */; };
+		2CA4BF152B00174400EEF230 /* CHMPlusButton+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4BF112B00174400EEF230 /* CHMPlusButton+Preview.swift */; };
+		2CA7EC662B1BC49D006BAB5F /* CHMIconTextView+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7EC652B1BC49D006BAB5F /* CHMIconTextView+HandlerConfiguration.swift */; };
+		2CA7EC682B1BC749006BAB5F /* CHMProfileButtonsBlock+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7EC672B1BC749006BAB5F /* CHMProfileButtonsBlock+HandlerConfiguration.swift */; };
+		2CABA3A42ACF622400CD7A11 /* CHMBackgroundView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3A02ACF622400CD7A11 /* CHMBackgroundView+Defaults.swift */; };
+		2CABA3A52ACF622400CD7A11 /* CHMBackgroundView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3A12ACF622400CD7A11 /* CHMBackgroundView+Configuration.swift */; };
+		2CABA3A62ACF622400CD7A11 /* CHMBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3A22ACF622400CD7A11 /* CHMBackgroundView.swift */; };
+		2CABA3A72ACF622400CD7A11 /* CHMBackgroundView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3A32ACF622400CD7A11 /* CHMBackgroundView+Preview.swift */; };
+		2CABA3AA2ACF63ED00CD7A11 /* NSObjectProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3A92ACF63ED00CD7A11 /* NSObjectProtocol+Extensions.swift */; };
+		2CABA3B32ACF693A00CD7A11 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3AC2ACF693A00CD7A11 /* CGSize+Extensions.swift */; };
+		2CABA3B42ACF693A00CD7A11 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3AD2ACF693A00CD7A11 /* Delay.swift */; };
+		2CABA3B52ACF693A00CD7A11 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3AF2ACF693A00CD7A11 /* String+Extensions.swift */; };
+		2CABA3B72ACF693A00CD7A11 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3B12ACF693A00CD7A11 /* Optional+Extensions.swift */; };
+		2CABA3B82ACF693A00CD7A11 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CABA3B22ACF693A00CD7A11 /* URL+Extensions.swift */; };
+		2CAF2C0D2B02EB2C00CA2C2B /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF2C0C2B02EB2C00CA2C2B /* Divider.swift */; };
+		2CAF2FC42AFD893C0027F266 /* CHMProductCard+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF2FC32AFD893C0027F266 /* CHMProductCard+HandlerConfiguration.swift */; };
+		2CBEA41A2AF962A100EA0624 /* CHMProductCarouselView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEA4162AF962A100EA0624 /* CHMProductCarouselView+Defaults.swift */; };
+		2CBEA41B2AF962A100EA0624 /* CHMProductCarouselView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEA4172AF962A100EA0624 /* CHMProductCarouselView+Configuration.swift */; };
+		2CBEA41C2AF962A100EA0624 /* CHMProductCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEA4182AF962A100EA0624 /* CHMProductCarouselView.swift */; };
+		2CBEA41D2AF962A100EA0624 /* CHMProductCarouselView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEA4192AF962A100EA0624 /* CHMProductCarouselView+Preview.swift */; };
+		2CC7A1E32B00543C001F943A /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7A1E22B00543C001F943A /* Bundle+Extension.swift */; };
+		2CC8806F2AF8B08000636362 /* CHMCategoryView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8806B2AF8B08000636362 /* CHMCategoryView+Defaults.swift */; };
+		2CC880702AF8B08000636362 /* CHMCategoryView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8806C2AF8B08000636362 /* CHMCategoryView+Configuration.swift */; };
+		2CC880712AF8B08000636362 /* CHMCategoryView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8806D2AF8B08000636362 /* CHMCategoryView+Preview.swift */; };
+		2CC880722AF8B08000636362 /* CHMCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC8806E2AF8B08000636362 /* CHMCategoryView.swift */; };
+		2CDCAD172AFFF7E400EBF6E5 /* CHMAddingСakeView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDCAD132AFFF7E400EBF6E5 /* CHMAddingСakeView+Defaults.swift */; };
+		2CDCAD182AFFF7E400EBF6E5 /* CHMAddingСakeView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDCAD142AFFF7E400EBF6E5 /* CHMAddingСakeView+Configuration.swift */; };
+		2CDCAD192AFFF7E400EBF6E5 /* CHMAddingСakeView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDCAD152AFFF7E400EBF6E5 /* CHMAddingСakeView+Preview.swift */; };
+		2CDCAD1A2AFFF7E400EBF6E5 /* CHMAddingСakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDCAD162AFFF7E400EBF6E5 /* CHMAddingСakeView.swift */; };
+		2CDDEDE12B1BB5DB006752DD /* CHMProfileButtonsBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDEDDC2B1BB5DB006752DD /* CHMProfileButtonsBlock.swift */; };
+		2CDDEDE22B1BB5DB006752DD /* CHMProfileButtonsBlock+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDEDDE2B1BB5DB006752DD /* CHMProfileButtonsBlock+Defaults.swift */; };
+		2CDDEDE32B1BB5DB006752DD /* CHMProfileButtonsBlock+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDEDDF2B1BB5DB006752DD /* CHMProfileButtonsBlock+Configuration.swift */; };
+		2CDDEDE42B1BB5DB006752DD /* CHMProfileButtonsBlock+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDEDE02B1BB5DB006752DD /* CHMProfileButtonsBlock+Preview.swift */; };
+		2CE1F08A2B229086000FB7DB /* CHMIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0852B229086000FB7DB /* CHMIconLabel.swift */; };
+		2CE1F08B2B229086000FB7DB /* CHMIconLabel+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0872B229086000FB7DB /* CHMIconLabel+Configuration.swift */; };
+		2CE1F08C2B229086000FB7DB /* CHMIconLabel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0882B229086000FB7DB /* CHMIconLabel+Defaults.swift */; };
+		2CE1F08D2B229086000FB7DB /* CHMIconLabel+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0892B229086000FB7DB /* CHMIconLabel+Preview.swift */; };
+		2CE1F0962B2290FF000FB7DB /* CHMIcon+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0922B2290FF000FB7DB /* CHMIcon+Configuration.swift */; };
+		2CE1F0972B2290FF000FB7DB /* CHMIcon+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0932B2290FF000FB7DB /* CHMIcon+Defaults.swift */; };
+		2CE1F0982B2290FF000FB7DB /* CHMIcon+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0942B2290FF000FB7DB /* CHMIcon+Preview.swift */; };
+		2CE1F0992B2290FF000FB7DB /* CHMIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F0952B2290FF000FB7DB /* CHMIcon.swift */; };
+		2CE1F09B2B229E92000FB7DB /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1F09A2B229E92000FB7DB /* Configurable.swift */; };
+		2CEAC1EA2AE5E6A900547DDE /* CHMLabel+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAC1E62AE5E6A900547DDE /* CHMLabel+Defaults.swift */; };
+		2CEAC1EB2AE5E6A900547DDE /* CHMLabel+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAC1E72AE5E6A900547DDE /* CHMLabel+Configuration.swift */; };
+		2CEAC1EC2AE5E6A900547DDE /* CHMLabel+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAC1E82AE5E6A900547DDE /* CHMLabel+Preview.swift */; };
+		2CEAC1ED2AE5E6A900547DDE /* CHMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAC1E92AE5E6A900547DDE /* CHMLabel.swift */; };
+		2CEFEF6D2B1B3EC00098D236 /* CHMAvatarView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF692B1B3EC00098D236 /* CHMAvatarView+Defaults.swift */; };
+		2CEFEF6E2B1B3EC00098D236 /* CHMAvatarView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF6A2B1B3EC00098D236 /* CHMAvatarView+Configuration.swift */; };
+		2CEFEF6F2B1B3EC00098D236 /* CHMAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF6B2B1B3EC00098D236 /* CHMAvatarView.swift */; };
+		2CEFEF702B1B3EC00098D236 /* CHMAvatarView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF6C2B1B3EC00098D236 /* CHMAvatarView+Preview.swift */; };
+		2CEFEF792B1B4FE90098D236 /* CHMProfileTopView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF752B1B4FE90098D236 /* CHMProfileTopView+Configuration.swift */; };
+		2CEFEF7A2B1B4FE90098D236 /* CHMProfileTopView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF762B1B4FE90098D236 /* CHMProfileTopView+Defaults.swift */; };
+		2CEFEF7B2B1B4FE90098D236 /* CHMProfileTopView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF772B1B4FE90098D236 /* CHMProfileTopView+Preview.swift */; };
+		2CEFEF7C2B1B4FE90098D236 /* CHMProfileTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF782B1B4FE90098D236 /* CHMProfileTopView.swift */; };
+		2CEFEF7E2B1B5D850098D236 /* CHMProfileTopView+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEFEF7D2B1B5D850098D236 /* CHMProfileTopView+HandlerConfiguration.swift */; };
+		E533A82A2B6C326800759D49 /* CHMProductUIButton+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533A8262B6C326800759D49 /* CHMProductUIButton+Defaults.swift */; };
+		E533A82B2B6C326800759D49 /* CHMProductUIButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533A8272B6C326800759D49 /* CHMProductUIButton+Configuration.swift */; };
+		E533A82C2B6C326800759D49 /* CHMProductUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533A8282B6C326800759D49 /* CHMProductUIButton.swift */; };
+		E533A82D2B6C326800759D49 /* CHMProductUIButton+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533A8292B6C326800759D49 /* CHMProductUIButton+Preview.swift */; };
+		E54733372B6CA6310081C5F9 /* CHMUIShimmeringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54733362B6CA6310081C5F9 /* CHMUIShimmeringView.swift */; };
+		E548F11C2B5C048F0089D2F8 /* CHMNewProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F11B2B5C048F0089D2F8 /* CHMNewProductCard.swift */; };
+		E548F11F2B5C04F60089D2F8 /* CHMBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F11E2B5C04F60089D2F8 /* CHMBadgeView.swift */; };
+		E548F1212B5C08FA0089D2F8 /* CHMBadgeView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1202B5C08FA0089D2F8 /* CHMBadgeView+Configuration.swift */; };
+		E548F1242B5C092F0089D2F8 /* CHMBadgeView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1232B5C092F0089D2F8 /* CHMBadgeView+Defaults.swift */; };
+		E548F1262B5C0B4A0089D2F8 /* CHMBadgeView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1252B5C0B4A0089D2F8 /* CHMBadgeView+Preview.swift */; };
+		E548F12F2B5C13A90089D2F8 /* MKRImageView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F12B2B5C13A90089D2F8 /* MKRImageView+Configuration.swift */; };
+		E548F1302B5C13A90089D2F8 /* MKRImageView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F12C2B5C13A90089D2F8 /* MKRImageView+Defaults.swift */; };
+		E548F1312B5C13A90089D2F8 /* MKRImageView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F12D2B5C13A90089D2F8 /* MKRImageView+Preview.swift */; };
+		E548F1322B5C13A90089D2F8 /* MKRImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F12E2B5C13A90089D2F8 /* MKRImageView.swift */; };
+		E548F1342B5C158E0089D2F8 /* ShimmeringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1332B5C158E0089D2F8 /* ShimmeringView.swift */; };
+		E548F1372B5C17960089D2F8 /* CHMNewProductCard+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1362B5C17960089D2F8 /* CHMNewProductCard+Configuration.swift */; };
+		E548F1392B5C17AD0089D2F8 /* CHMNewProductCard+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1382B5C17AD0089D2F8 /* CHMNewProductCard+Defaults.swift */; };
+		E548F13B2B5C17E10089D2F8 /* CHMNewProductCard+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F13A2B5C17E10089D2F8 /* CHMNewProductCard+Preview.swift */; };
+		E548F1442B5C25330089D2F8 /* CHMStarsView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1402B5C25330089D2F8 /* CHMStarsView+Defaults.swift */; };
+		E548F1452B5C25330089D2F8 /* CHMStarsView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1412B5C25330089D2F8 /* CHMStarsView+Configuration.swift */; };
+		E548F1462B5C25330089D2F8 /* CHMStarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1422B5C25330089D2F8 /* CHMStarsView.swift */; };
+		E548F1472B5C25330089D2F8 /* CHMStarsView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1432B5C25330089D2F8 /* CHMStarsView+Preview.swift */; };
+		E548F14C2B5C34E10089D2F8 /* Color+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F14B2B5C34E10089D2F8 /* Color+Extenstions.swift */; };
+		E548F1552B5C36D20089D2F8 /* CHMProductButton+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1512B5C36D20089D2F8 /* CHMProductButton+Configuration.swift */; };
+		E548F1562B5C36D20089D2F8 /* CHMProductButton+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1522B5C36D20089D2F8 /* CHMProductButton+Defaults.swift */; };
+		E548F1572B5C36D20089D2F8 /* CHMProductButton+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1532B5C36D20089D2F8 /* CHMProductButton+Preview.swift */; };
+		E548F1582B5C36D20089D2F8 /* CHMProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1542B5C36D20089D2F8 /* CHMProductButton.swift */; };
+		E548F15A2B5C37D70089D2F8 /* View+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548F1592B5C37D70089D2F8 /* View+Extentions.swift */; };
+		E565C1C32B668C4700E3FC58 /* CHMBigBannerView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565C1BF2B668C4700E3FC58 /* CHMBigBannerView+Configuration.swift */; };
+		E565C1C42B668C4700E3FC58 /* CHMBigBannerView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565C1C02B668C4700E3FC58 /* CHMBigBannerView+Defaults.swift */; };
+		E565C1C52B668C4700E3FC58 /* CHMBigBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565C1C12B668C4700E3FC58 /* CHMBigBannerView.swift */; };
+		E565C1C62B668C4700E3FC58 /* CHMBigBannerView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E565C1C22B668C4700E3FC58 /* CHMBigBannerView+Preview.swift */; };
+		E56CACAE2B6AAE6800CAE74F /* CHMMainProductCard+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CACAA2B6AAE6800CAE74F /* CHMMainProductCard+Defaults.swift */; };
+		E56CACAF2B6AAE6800CAE74F /* CHMMainProductCard+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CACAB2B6AAE6800CAE74F /* CHMMainProductCard+Configuration.swift */; };
+		E56CACB02B6AAE6800CAE74F /* CHMMainProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CACAC2B6AAE6800CAE74F /* CHMMainProductCard.swift */; };
+		E56CACB12B6AAE6800CAE74F /* CHMMainProductCard+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CACAD2B6AAE6800CAE74F /* CHMMainProductCard+Preview.swift */; };
+		E5925F042B6ACDA100EEAE8D /* CHMReviewStarts+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5925F002B6ACDA100EEAE8D /* CHMReviewStarts+Defaults.swift */; };
+		E5925F052B6ACDA100EEAE8D /* CHMReviewStarts+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5925F012B6ACDA100EEAE8D /* CHMReviewStarts+Configuration.swift */; };
+		E5925F062B6ACDA100EEAE8D /* CHMReviewStarts+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5925F022B6ACDA100EEAE8D /* CHMReviewStarts+Preview.swift */; };
+		E5925F072B6ACDA100EEAE8D /* CHMReviewStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5925F032B6ACDA100EEAE8D /* CHMReviewStars.swift */; };
+		E5B299912B64A82C0028ADB4 /* CHMCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2998C2B64A82C0028ADB4 /* CHMCommentView.swift */; };
+		E5B299922B64A82C0028ADB4 /* CHMCommentView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2998E2B64A82C0028ADB4 /* CHMCommentView+Configuration.swift */; };
+		E5B299932B64A82C0028ADB4 /* CHMCommentView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2998F2B64A82C0028ADB4 /* CHMCommentView+Defaults.swift */; };
+		E5B299942B64A82C0028ADB4 /* CHMCommentView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B299902B64A82C0028ADB4 /* CHMCommentView+Preview.swift */; };
+		E5B299AB2B64AFF90028ADB4 /* CHMNewCategoryView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B299A72B64AFF90028ADB4 /* CHMNewCategoryView+Configuration.swift */; };
+		E5B299AC2B64AFF90028ADB4 /* CHMNewCategoryView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B299A82B64AFF90028ADB4 /* CHMNewCategoryView+Defaults.swift */; };
+		E5B299AD2B64AFF90028ADB4 /* CHMNewCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B299A92B64AFF90028ADB4 /* CHMNewCategoryView.swift */; };
+		E5B299AE2B64AFF90028ADB4 /* CHMNewCategoryView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B299AA2B64AFF90028ADB4 /* CHMNewCategoryView+Preview.swift */; };
+		E5BA9D922B6AD8CA00DDE639 /* CHMShimmeringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA9D912B6AD8CA00DDE639 /* CHMShimmeringView.swift */; };
+		E5E7B3B32B6C1D0A007EB684 /* CHMCardBadge+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7B3AF2B6C1D0A007EB684 /* CHMCardBadge+Defaults.swift */; };
+		E5E7B3B42B6C1D0A007EB684 /* CHMCardBadge+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7B3B02B6C1D0A007EB684 /* CHMCardBadge+Configuration.swift */; };
+		E5E7B3B52B6C1D0A007EB684 /* CHMCardBadge+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7B3B12B6C1D0A007EB684 /* CHMCardBadge+Preview.swift */; };
+		E5E7B3B62B6C1D0A007EB684 /* CHMCardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7B3B22B6C1D0A007EB684 /* CHMCardBadge.swift */; };
+		E5EEBD7B2B653E1A00F9C20E /* CHMRatingReviewsView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEBD772B653E1A00F9C20E /* CHMRatingReviewsView+Configuration.swift */; };
+		E5EEBD7C2B653E1A00F9C20E /* CHMRatingReviewsView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEBD782B653E1A00F9C20E /* CHMRatingReviewsView+Defaults.swift */; };
+		E5EEBD7D2B653E1A00F9C20E /* CHMRatingReviewsView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEBD792B653E1A00F9C20E /* CHMRatingReviewsView+Preview.swift */; };
+		E5EEBD7E2B653E1A00F9C20E /* CHMRatingReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EEBD7A2B653E1A00F9C20E /* CHMRatingReviewsView.swift */; };
+		E5F8821F2B6452E900A2C716 /* CHMProductDescriptionView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8821B2B6452E900A2C716 /* CHMProductDescriptionView+Defaults.swift */; };
+		E5F882202B6452E900A2C716 /* CHMProductDescriptionView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8821C2B6452E900A2C716 /* CHMProductDescriptionView+Configuration.swift */; };
+		E5F882212B6452E900A2C716 /* CHMProductDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8821D2B6452E900A2C716 /* CHMProductDescriptionView.swift */; };
+		E5F882222B6452E900A2C716 /* CHMProductDescriptionView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8821E2B6452E900A2C716 /* CHMProductDescriptionView+Preview.swift */; };
+		E5F8822B2B64556F00A2C716 /* CHMPicker+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F882272B64556F00A2C716 /* CHMPicker+Defaults.swift */; };
+		E5F8822C2B64556F00A2C716 /* CHMPicker+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F882282B64556F00A2C716 /* CHMPicker+Configuration.swift */; };
+		E5F8822D2B64556F00A2C716 /* CHMPicker+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F882292B64556F00A2C716 /* CHMPicker+Preview.swift */; };
+		E5F8822E2B64556F00A2C716 /* CHMPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8822A2B64556F00A2C716 /* CHMPicker.swift */; };
+		E5F882302B645D6C00A2C716 /* Color+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8822F2B645D6C00A2C716 /* Color+Addition.swift */; };
+		E5F882322B64758200A2C716 /* CHMProductDescriptionView+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F882312B64758200A2C716 /* CHMProductDescriptionView+HandlerConfiguration.swift */; };
+		E5F882342B64793D00A2C716 /* CHMPicker+HandlerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F882332B64793D00A2C716 /* CHMPicker+HandlerConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C07BFF72AD4BBD400ECF210 /* CHMThroughDataImageResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMThroughDataImageResolver.swift; sourceTree = "<group>"; };
+		2C07BFFD2AD4C2CB00ECF210 /* CHMImageView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMImageView+Defaults.swift"; sourceTree = "<group>"; };
+		2C07BFFE2AD4C2CB00ECF210 /* CHMImageView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMImageView+Configuration.swift"; sourceTree = "<group>"; };
+		2C07BFFF2AD4C2CB00ECF210 /* CHMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMImageView.swift; sourceTree = "<group>"; };
+		2C07C0002AD4C2CB00ECF210 /* CHMImageView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMImageView+Preview.swift"; sourceTree = "<group>"; };
+		2C24DB432AFD82F300DA0A46 /* CHMProductCarouselView+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMProductCarouselView+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		2C2C00032B000A090010BC27 /* UIImage+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extenstions.swift"; sourceTree = "<group>"; };
+		2C3116292B1B8CD700FC63BD /* CHMIconTextView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconTextView+Configuration.swift"; sourceTree = "<group>"; };
+		2C31162A2B1B8CD700FC63BD /* CHMIconTextView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconTextView+Defaults.swift"; sourceTree = "<group>"; };
+		2C31162B2B1B8CD700FC63BD /* CHMIconTextView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconTextView+Preview.swift"; sourceTree = "<group>"; };
+		2C31162C2B1B8CD700FC63BD /* CHMIconTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMIconTextView.swift; sourceTree = "<group>"; };
+		2C320E0D2B179B6500CF1432 /* UIColors+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColors+Preview.swift"; sourceTree = "<group>"; };
+		2C326D442B1691CE006C9990 /* Modifiy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiy.swift; sourceTree = "<group>"; };
+		2C326D452B1691CE006C9990 /* SwiftUIPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIPreview.swift; sourceTree = "<group>"; };
+		2C4C16532ACE2781002620E3 /* CHMUIKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHMUIKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4C16562ACE2781002620E3 /* CHMUIKIT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHMUIKIT.h; sourceTree = "<group>"; };
+		2C4C16572ACE2781002620E3 /* CHMUIKIT.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CHMUIKIT.docc; sourceTree = "<group>"; };
+		2C4C16602ACE294D002620E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4E7E582B1B995D0025D876 /* UIImage+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
+		2C58FF332AD086DD005473C6 /* CHMButton+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMButton+Configuration.swift"; sourceTree = "<group>"; };
+		2C58FF342AD086DD005473C6 /* CHMButton+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMButton+Defaults.swift"; sourceTree = "<group>"; };
+		2C58FF352AD086DD005473C6 /* CHMButton+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMButton+Preview.swift"; sourceTree = "<group>"; };
+		2C58FF362AD086DD005473C6 /* CHMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMButton.swift; sourceTree = "<group>"; };
+		2C58FF3E2AD09C6A005473C6 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		2C58FF402AD09D03005473C6 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		2C58FF422AD09E25005473C6 /* LabelConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelConfiguration.swift; sourceTree = "<group>"; };
+		2C58FF442AD0A138005473C6 /* UIView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentions.swift"; sourceTree = "<group>"; };
+		2C58FF472AD0A3AF005473C6 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		2C58FF492AD0ABEE005473C6 /* CHMButton+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMButton+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		2C58FF4B2AD0AC1B005473C6 /* ClearConfigurationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearConfigurationProtocol.swift; sourceTree = "<group>"; };
+		2C58FF4D2AD0AC47005473C6 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		2C5AD3D02AE87104001A98E0 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		2C5AD3D42AE8734F001A98E0 /* UIColor+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extenstions.swift"; sourceTree = "<group>"; };
+		2C5F23842AD4D33000739D95 /* ImageConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConfiguration.swift; sourceTree = "<group>"; };
+		2C6BFDAA2AF96B9900AE73F9 /* UICollectionView+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extenstions.swift"; sourceTree = "<group>"; };
+		2C7331D92AF829E200454680 /* CHMProductCard+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductCard+Configuration.swift"; sourceTree = "<group>"; };
+		2C7331DA2AF829E200454680 /* CHMProductCard+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductCard+Defaults.swift"; sourceTree = "<group>"; };
+		2C7331DB2AF829E200454680 /* CHMProductCard+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductCard+Preview.swift"; sourceTree = "<group>"; };
+		2C7331DC2AF829E200454680 /* CHMProductCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProductCard.swift; sourceTree = "<group>"; };
+		2C7331E32AF8314300454680 /* CHMProductImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMProductImageCell.swift; sourceTree = "<group>"; };
+		2C794CA72B005C2F003E5AAE /* CHMAddingCakeView+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMAddingCakeView+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		2CA4BF062B000CA600EEF230 /* CGFloat+Extenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extenstions.swift"; sourceTree = "<group>"; };
+		2CA4BF0E2B00174400EEF230 /* CHMPlusButton+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMPlusButton+Configuration.swift"; sourceTree = "<group>"; };
+		2CA4BF0F2B00174400EEF230 /* CHMPlusButton+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMPlusButton+Defaults.swift"; sourceTree = "<group>"; };
+		2CA4BF102B00174400EEF230 /* CHMPlusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMPlusButton.swift; sourceTree = "<group>"; };
+		2CA4BF112B00174400EEF230 /* CHMPlusButton+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMPlusButton+Preview.swift"; sourceTree = "<group>"; };
+		2CA7EC652B1BC49D006BAB5F /* CHMIconTextView+HandlerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconTextView+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		2CA7EC672B1BC749006BAB5F /* CHMProfileButtonsBlock+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMProfileButtonsBlock+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		2CABA3A02ACF622400CD7A11 /* CHMBackgroundView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMBackgroundView+Defaults.swift"; sourceTree = "<group>"; };
+		2CABA3A12ACF622400CD7A11 /* CHMBackgroundView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMBackgroundView+Configuration.swift"; sourceTree = "<group>"; };
+		2CABA3A22ACF622400CD7A11 /* CHMBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMBackgroundView.swift; sourceTree = "<group>"; };
+		2CABA3A32ACF622400CD7A11 /* CHMBackgroundView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMBackgroundView+Preview.swift"; sourceTree = "<group>"; };
+		2CABA3A92ACF63ED00CD7A11 /* NSObjectProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+Extensions.swift"; sourceTree = "<group>"; };
+		2CABA3AC2ACF693A00CD7A11 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		2CABA3AD2ACF693A00CD7A11 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		2CABA3AF2ACF693A00CD7A11 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2CABA3B12ACF693A00CD7A11 /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		2CABA3B22ACF693A00CD7A11 /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		2CAF2C0C2B02EB2C00CA2C2B /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
+		2CAF2FC32AFD893C0027F266 /* CHMProductCard+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMProductCard+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		2CBEA4162AF962A100EA0624 /* CHMProductCarouselView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductCarouselView+Defaults.swift"; sourceTree = "<group>"; };
+		2CBEA4172AF962A100EA0624 /* CHMProductCarouselView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductCarouselView+Configuration.swift"; sourceTree = "<group>"; };
+		2CBEA4182AF962A100EA0624 /* CHMProductCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProductCarouselView.swift; sourceTree = "<group>"; };
+		2CBEA4192AF962A100EA0624 /* CHMProductCarouselView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductCarouselView+Preview.swift"; sourceTree = "<group>"; };
+		2CC7A1E22B00543C001F943A /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		2CC8806B2AF8B08000636362 /* CHMCategoryView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCategoryView+Defaults.swift"; sourceTree = "<group>"; };
+		2CC8806C2AF8B08000636362 /* CHMCategoryView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCategoryView+Configuration.swift"; sourceTree = "<group>"; };
+		2CC8806D2AF8B08000636362 /* CHMCategoryView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCategoryView+Preview.swift"; sourceTree = "<group>"; };
+		2CC8806E2AF8B08000636362 /* CHMCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMCategoryView.swift; sourceTree = "<group>"; };
+		2CDCAD132AFFF7E400EBF6E5 /* CHMAddingСakeView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAddingСakeView+Defaults.swift"; sourceTree = "<group>"; };
+		2CDCAD142AFFF7E400EBF6E5 /* CHMAddingСakeView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAddingСakeView+Configuration.swift"; sourceTree = "<group>"; };
+		2CDCAD152AFFF7E400EBF6E5 /* CHMAddingСakeView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAddingСakeView+Preview.swift"; sourceTree = "<group>"; };
+		2CDCAD162AFFF7E400EBF6E5 /* CHMAddingСakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAddingСakeView.swift"; sourceTree = "<group>"; };
+		2CDDEDDC2B1BB5DB006752DD /* CHMProfileButtonsBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProfileButtonsBlock.swift; sourceTree = "<group>"; };
+		2CDDEDDE2B1BB5DB006752DD /* CHMProfileButtonsBlock+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProfileButtonsBlock+Defaults.swift"; sourceTree = "<group>"; };
+		2CDDEDDF2B1BB5DB006752DD /* CHMProfileButtonsBlock+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProfileButtonsBlock+Configuration.swift"; sourceTree = "<group>"; };
+		2CDDEDE02B1BB5DB006752DD /* CHMProfileButtonsBlock+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProfileButtonsBlock+Preview.swift"; sourceTree = "<group>"; };
+		2CE1F0852B229086000FB7DB /* CHMIconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMIconLabel.swift; sourceTree = "<group>"; };
+		2CE1F0872B229086000FB7DB /* CHMIconLabel+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconLabel+Configuration.swift"; sourceTree = "<group>"; };
+		2CE1F0882B229086000FB7DB /* CHMIconLabel+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconLabel+Defaults.swift"; sourceTree = "<group>"; };
+		2CE1F0892B229086000FB7DB /* CHMIconLabel+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIconLabel+Preview.swift"; sourceTree = "<group>"; };
+		2CE1F0922B2290FF000FB7DB /* CHMIcon+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIcon+Configuration.swift"; sourceTree = "<group>"; };
+		2CE1F0932B2290FF000FB7DB /* CHMIcon+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIcon+Defaults.swift"; sourceTree = "<group>"; };
+		2CE1F0942B2290FF000FB7DB /* CHMIcon+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMIcon+Preview.swift"; sourceTree = "<group>"; };
+		2CE1F0952B2290FF000FB7DB /* CHMIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMIcon.swift; sourceTree = "<group>"; };
+		2CE1F09A2B229E92000FB7DB /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		2CEAC1E62AE5E6A900547DDE /* CHMLabel+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMLabel+Defaults.swift"; sourceTree = "<group>"; };
+		2CEAC1E72AE5E6A900547DDE /* CHMLabel+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMLabel+Configuration.swift"; sourceTree = "<group>"; };
+		2CEAC1E82AE5E6A900547DDE /* CHMLabel+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMLabel+Preview.swift"; sourceTree = "<group>"; };
+		2CEAC1E92AE5E6A900547DDE /* CHMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMLabel.swift; sourceTree = "<group>"; };
+		2CEFEF692B1B3EC00098D236 /* CHMAvatarView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAvatarView+Defaults.swift"; sourceTree = "<group>"; };
+		2CEFEF6A2B1B3EC00098D236 /* CHMAvatarView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAvatarView+Configuration.swift"; sourceTree = "<group>"; };
+		2CEFEF6B2B1B3EC00098D236 /* CHMAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMAvatarView.swift; sourceTree = "<group>"; };
+		2CEFEF6C2B1B3EC00098D236 /* CHMAvatarView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMAvatarView+Preview.swift"; sourceTree = "<group>"; };
+		2CEFEF752B1B4FE90098D236 /* CHMProfileTopView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProfileTopView+Configuration.swift"; sourceTree = "<group>"; };
+		2CEFEF762B1B4FE90098D236 /* CHMProfileTopView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProfileTopView+Defaults.swift"; sourceTree = "<group>"; };
+		2CEFEF772B1B4FE90098D236 /* CHMProfileTopView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProfileTopView+Preview.swift"; sourceTree = "<group>"; };
+		2CEFEF782B1B4FE90098D236 /* CHMProfileTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProfileTopView.swift; sourceTree = "<group>"; };
+		2CEFEF7D2B1B5D850098D236 /* CHMProfileTopView+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMProfileTopView+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		E533A8262B6C326800759D49 /* CHMProductUIButton+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductUIButton+Defaults.swift"; sourceTree = "<group>"; };
+		E533A8272B6C326800759D49 /* CHMProductUIButton+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductUIButton+Configuration.swift"; sourceTree = "<group>"; };
+		E533A8282B6C326800759D49 /* CHMProductUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProductUIButton.swift; sourceTree = "<group>"; };
+		E533A8292B6C326800759D49 /* CHMProductUIButton+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductUIButton+Preview.swift"; sourceTree = "<group>"; };
+		E54733362B6CA6310081C5F9 /* CHMUIShimmeringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMUIShimmeringView.swift; sourceTree = "<group>"; };
+		E548F11B2B5C048F0089D2F8 /* CHMNewProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMNewProductCard.swift; sourceTree = "<group>"; };
+		E548F11E2B5C04F60089D2F8 /* CHMBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMBadgeView.swift; sourceTree = "<group>"; };
+		E548F1202B5C08FA0089D2F8 /* CHMBadgeView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMBadgeView+Configuration.swift"; sourceTree = "<group>"; };
+		E548F1232B5C092F0089D2F8 /* CHMBadgeView+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMBadgeView+Defaults.swift"; sourceTree = "<group>"; };
+		E548F1252B5C0B4A0089D2F8 /* CHMBadgeView+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMBadgeView+Preview.swift"; sourceTree = "<group>"; };
+		E548F12B2B5C13A90089D2F8 /* MKRImageView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKRImageView+Configuration.swift"; sourceTree = "<group>"; };
+		E548F12C2B5C13A90089D2F8 /* MKRImageView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKRImageView+Defaults.swift"; sourceTree = "<group>"; };
+		E548F12D2B5C13A90089D2F8 /* MKRImageView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKRImageView+Preview.swift"; sourceTree = "<group>"; };
+		E548F12E2B5C13A90089D2F8 /* MKRImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRImageView.swift; sourceTree = "<group>"; };
+		E548F1332B5C158E0089D2F8 /* ShimmeringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmeringView.swift; sourceTree = "<group>"; };
+		E548F1362B5C17960089D2F8 /* CHMNewProductCard+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMNewProductCard+Configuration.swift"; sourceTree = "<group>"; };
+		E548F1382B5C17AD0089D2F8 /* CHMNewProductCard+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMNewProductCard+Defaults.swift"; sourceTree = "<group>"; };
+		E548F13A2B5C17E10089D2F8 /* CHMNewProductCard+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMNewProductCard+Preview.swift"; sourceTree = "<group>"; };
+		E548F1402B5C25330089D2F8 /* CHMStarsView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMStarsView+Defaults.swift"; sourceTree = "<group>"; };
+		E548F1412B5C25330089D2F8 /* CHMStarsView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMStarsView+Configuration.swift"; sourceTree = "<group>"; };
+		E548F1422B5C25330089D2F8 /* CHMStarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMStarsView.swift; sourceTree = "<group>"; };
+		E548F1432B5C25330089D2F8 /* CHMStarsView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMStarsView+Preview.swift"; sourceTree = "<group>"; };
+		E548F14B2B5C34E10089D2F8 /* Color+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extenstions.swift"; sourceTree = "<group>"; };
+		E548F1512B5C36D20089D2F8 /* CHMProductButton+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductButton+Configuration.swift"; sourceTree = "<group>"; };
+		E548F1522B5C36D20089D2F8 /* CHMProductButton+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductButton+Defaults.swift"; sourceTree = "<group>"; };
+		E548F1532B5C36D20089D2F8 /* CHMProductButton+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductButton+Preview.swift"; sourceTree = "<group>"; };
+		E548F1542B5C36D20089D2F8 /* CHMProductButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProductButton.swift; sourceTree = "<group>"; };
+		E548F1592B5C37D70089D2F8 /* View+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extentions.swift"; sourceTree = "<group>"; };
+		E565C1BF2B668C4700E3FC58 /* CHMBigBannerView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMBigBannerView+Configuration.swift"; sourceTree = "<group>"; };
+		E565C1C02B668C4700E3FC58 /* CHMBigBannerView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMBigBannerView+Defaults.swift"; sourceTree = "<group>"; };
+		E565C1C12B668C4700E3FC58 /* CHMBigBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMBigBannerView.swift; sourceTree = "<group>"; };
+		E565C1C22B668C4700E3FC58 /* CHMBigBannerView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMBigBannerView+Preview.swift"; sourceTree = "<group>"; };
+		E56CACAA2B6AAE6800CAE74F /* CHMMainProductCard+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMMainProductCard+Defaults.swift"; sourceTree = "<group>"; };
+		E56CACAB2B6AAE6800CAE74F /* CHMMainProductCard+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMMainProductCard+Configuration.swift"; sourceTree = "<group>"; };
+		E56CACAC2B6AAE6800CAE74F /* CHMMainProductCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMMainProductCard.swift; sourceTree = "<group>"; };
+		E56CACAD2B6AAE6800CAE74F /* CHMMainProductCard+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMMainProductCard+Preview.swift"; sourceTree = "<group>"; };
+		E5925F002B6ACDA100EEAE8D /* CHMReviewStarts+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMReviewStarts+Defaults.swift"; sourceTree = "<group>"; };
+		E5925F012B6ACDA100EEAE8D /* CHMReviewStarts+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMReviewStarts+Configuration.swift"; sourceTree = "<group>"; };
+		E5925F022B6ACDA100EEAE8D /* CHMReviewStarts+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMReviewStarts+Preview.swift"; sourceTree = "<group>"; };
+		E5925F032B6ACDA100EEAE8D /* CHMReviewStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMReviewStars.swift; sourceTree = "<group>"; };
+		E5B2998C2B64A82C0028ADB4 /* CHMCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMCommentView.swift; sourceTree = "<group>"; };
+		E5B2998E2B64A82C0028ADB4 /* CHMCommentView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCommentView+Configuration.swift"; sourceTree = "<group>"; };
+		E5B2998F2B64A82C0028ADB4 /* CHMCommentView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCommentView+Defaults.swift"; sourceTree = "<group>"; };
+		E5B299902B64A82C0028ADB4 /* CHMCommentView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCommentView+Preview.swift"; sourceTree = "<group>"; };
+		E5B299A72B64AFF90028ADB4 /* CHMNewCategoryView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMNewCategoryView+Configuration.swift"; sourceTree = "<group>"; };
+		E5B299A82B64AFF90028ADB4 /* CHMNewCategoryView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMNewCategoryView+Defaults.swift"; sourceTree = "<group>"; };
+		E5B299A92B64AFF90028ADB4 /* CHMNewCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMNewCategoryView.swift; sourceTree = "<group>"; };
+		E5B299AA2B64AFF90028ADB4 /* CHMNewCategoryView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMNewCategoryView+Preview.swift"; sourceTree = "<group>"; };
+		E5BA9D912B6AD8CA00DDE639 /* CHMShimmeringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMShimmeringView.swift; sourceTree = "<group>"; };
+		E5E7B3AF2B6C1D0A007EB684 /* CHMCardBadge+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCardBadge+Defaults.swift"; sourceTree = "<group>"; };
+		E5E7B3B02B6C1D0A007EB684 /* CHMCardBadge+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCardBadge+Configuration.swift"; sourceTree = "<group>"; };
+		E5E7B3B12B6C1D0A007EB684 /* CHMCardBadge+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMCardBadge+Preview.swift"; sourceTree = "<group>"; };
+		E5E7B3B22B6C1D0A007EB684 /* CHMCardBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMCardBadge.swift; sourceTree = "<group>"; };
+		E5EEBD772B653E1A00F9C20E /* CHMRatingReviewsView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMRatingReviewsView+Configuration.swift"; sourceTree = "<group>"; };
+		E5EEBD782B653E1A00F9C20E /* CHMRatingReviewsView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMRatingReviewsView+Defaults.swift"; sourceTree = "<group>"; };
+		E5EEBD792B653E1A00F9C20E /* CHMRatingReviewsView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMRatingReviewsView+Preview.swift"; sourceTree = "<group>"; };
+		E5EEBD7A2B653E1A00F9C20E /* CHMRatingReviewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMRatingReviewsView.swift; sourceTree = "<group>"; };
+		E5F8821B2B6452E900A2C716 /* CHMProductDescriptionView+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductDescriptionView+Defaults.swift"; sourceTree = "<group>"; };
+		E5F8821C2B6452E900A2C716 /* CHMProductDescriptionView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductDescriptionView+Configuration.swift"; sourceTree = "<group>"; };
+		E5F8821D2B6452E900A2C716 /* CHMProductDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMProductDescriptionView.swift; sourceTree = "<group>"; };
+		E5F8821E2B6452E900A2C716 /* CHMProductDescriptionView+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMProductDescriptionView+Preview.swift"; sourceTree = "<group>"; };
+		E5F882272B64556F00A2C716 /* CHMPicker+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMPicker+Defaults.swift"; sourceTree = "<group>"; };
+		E5F882282B64556F00A2C716 /* CHMPicker+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMPicker+Configuration.swift"; sourceTree = "<group>"; };
+		E5F882292B64556F00A2C716 /* CHMPicker+Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CHMPicker+Preview.swift"; sourceTree = "<group>"; };
+		E5F8822A2B64556F00A2C716 /* CHMPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMPicker.swift; sourceTree = "<group>"; };
+		E5F8822F2B645D6C00A2C716 /* Color+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Addition.swift"; sourceTree = "<group>"; };
+		E5F882312B64758200A2C716 /* CHMProductDescriptionView+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMProductDescriptionView+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+		E5F882332B64793D00A2C716 /* CHMPicker+HandlerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CHMPicker+HandlerConfiguration.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4C16502ACE2781002620E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C07BFF62AD4BBC000ECF210 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2C07BFF72AD4BBD400ECF210 /* CHMThroughDataImageResolver.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2C07BFFB2AD4C2CB00ECF210 /* CHMImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2C07BFFC2AD4C2CB00ECF210 /* Configuration */,
+				2C07BFFF2AD4C2CB00ECF210 /* CHMImageView.swift */,
+				2C07C0002AD4C2CB00ECF210 /* CHMImageView+Preview.swift */,
+			);
+			path = CHMImageView;
+			sourceTree = "<group>";
+		};
+		2C07BFFC2AD4C2CB00ECF210 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2C07BFFE2AD4C2CB00ECF210 /* CHMImageView+Configuration.swift */,
+				2C07BFFD2AD4C2CB00ECF210 /* CHMImageView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2C07C0052AD4D2D400ECF210 /* CommonConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F23842AD4D33000739D95 /* ImageConfiguration.swift */,
+			);
+			path = CommonConfigurations;
+			sourceTree = "<group>";
+		};
+		2C3116272B1B8CD700FC63BD /* CHMIconTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2C3116282B1B8CD700FC63BD /* Configuration */,
+				2C31162B2B1B8CD700FC63BD /* CHMIconTextView+Preview.swift */,
+				2C31162C2B1B8CD700FC63BD /* CHMIconTextView.swift */,
+			);
+			path = CHMIconTextView;
+			sourceTree = "<group>";
+		};
+		2C3116282B1B8CD700FC63BD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2C3116292B1B8CD700FC63BD /* CHMIconTextView+Configuration.swift */,
+				2CA7EC652B1BC49D006BAB5F /* CHMIconTextView+HandlerConfiguration.swift */,
+				2C31162A2B1B8CD700FC63BD /* CHMIconTextView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2C4C16492ACE2781002620E3 = {
+			isa = PBXGroup;
+			children = (
+				2CC7A1E22B00543C001F943A /* Bundle+Extension.swift */,
+				2C4C16552ACE2781002620E3 /* CHMUIKIT */,
+				2C4C16542ACE2781002620E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4C16542ACE2781002620E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C16532ACE2781002620E3 /* CHMUIKIT.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4C16552ACE2781002620E3 /* CHMUIKIT */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C165F2ACE28F6002620E3 /* Resources */,
+				2C4C16622ACE2981002620E3 /* Sources */,
+				2C4C16562ACE2781002620E3 /* CHMUIKIT.h */,
+				2C4C16572ACE2781002620E3 /* CHMUIKIT.docc */,
+			);
+			path = CHMUIKIT;
+			sourceTree = "<group>";
+		};
+		2C4C165F2ACE28F6002620E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C16602ACE294D002620E3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C4C16622ACE2981002620E3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C07BFF62AD4BBC000ECF210 /* Service */,
+				2C58FF3D2AD09C56005473C6 /* CommonConfigurations */,
+				2CABA3A82ACF63D100CD7A11 /* Extensions */,
+				2CABA3992ACF5E3400CD7A11 /* Helpers */,
+				2C4C16682ACE3043002620E3 /* Components */,
+				2C4C16632ACE29C9002620E3 /* Protocols */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2C4C16632ACE29C9002620E3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2C58FF4B2AD0AC1B005473C6 /* ClearConfigurationProtocol.swift */,
+				2CE1F09A2B229E92000FB7DB /* Configurable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2C4C16682ACE3043002620E3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1492B5C2C520089D2F8 /* SwiftUI */,
+				E548F1482B5C2C4D0089D2F8 /* UIKit */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2C58FF312AD086DD005473C6 /* CHMButton */ = {
+			isa = PBXGroup;
+			children = (
+				2C58FF322AD086DD005473C6 /* Configuration */,
+				2C58FF362AD086DD005473C6 /* CHMButton.swift */,
+				2C58FF352AD086DD005473C6 /* CHMButton+Preview.swift */,
+			);
+			path = CHMButton;
+			sourceTree = "<group>";
+		};
+		2C58FF322AD086DD005473C6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2C58FF332AD086DD005473C6 /* CHMButton+Configuration.swift */,
+				2C58FF342AD086DD005473C6 /* CHMButton+Defaults.swift */,
+				2C58FF492AD0ABEE005473C6 /* CHMButton+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2C58FF3D2AD09C56005473C6 /* CommonConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				2C58FF3E2AD09C6A005473C6 /* CustomFont.swift */,
+				2C58FF422AD09E25005473C6 /* LabelConfiguration.swift */,
+				2CAF2C0C2B02EB2C00CA2C2B /* Divider.swift */,
+			);
+			path = CommonConfigurations;
+			sourceTree = "<group>";
+		};
+		2C58FF462AD0A3AB005473C6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2C58FF442AD0A138005473C6 /* UIView+Extentions.swift */,
+				2C58FF472AD0A3AF005473C6 /* UILabel+Extensions.swift */,
+				2C5AD3D02AE87104001A98E0 /* UIColor+Additions.swift */,
+				2C5AD3D42AE8734F001A98E0 /* UIColor+Extenstions.swift */,
+				2C6BFDAA2AF96B9900AE73F9 /* UICollectionView+Extenstions.swift */,
+				2C2C00032B000A090010BC27 /* UIImage+Extenstions.swift */,
+				2C320E0D2B179B6500CF1432 /* UIColors+Preview.swift */,
+				2C4E7E582B1B995D0025D876 /* UIImage+Additions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2C7331D72AF829E200454680 /* CHMProductCard */ = {
+			isa = PBXGroup;
+			children = (
+				2C7331D82AF829E200454680 /* Configuration */,
+				2C7331DB2AF829E200454680 /* CHMProductCard+Preview.swift */,
+				2C7331DC2AF829E200454680 /* CHMProductCard.swift */,
+			);
+			path = CHMProductCard;
+			sourceTree = "<group>";
+		};
+		2C7331D82AF829E200454680 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2C7331D92AF829E200454680 /* CHMProductCard+Configuration.swift */,
+				2C7331DA2AF829E200454680 /* CHMProductCard+Defaults.swift */,
+				2CAF2FC32AFD893C0027F266 /* CHMProductCard+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CA4BF0C2B00174400EEF230 /* CHMPlusButton */ = {
+			isa = PBXGroup;
+			children = (
+				2CA4BF0D2B00174400EEF230 /* Configuration */,
+				2CA4BF102B00174400EEF230 /* CHMPlusButton.swift */,
+				2CA4BF112B00174400EEF230 /* CHMPlusButton+Preview.swift */,
+			);
+			path = CHMPlusButton;
+			sourceTree = "<group>";
+		};
+		2CA4BF0D2B00174400EEF230 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CA4BF0E2B00174400EEF230 /* CHMPlusButton+Configuration.swift */,
+				2CA4BF0F2B00174400EEF230 /* CHMPlusButton+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CABA3992ACF5E3400CD7A11 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C326D442B1691CE006C9990 /* Modifiy.swift */,
+				2C326D452B1691CE006C9990 /* SwiftUIPreview.swift */,
+				2C58FF4D2AD0AC47005473C6 /* Typealias.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2CABA39E2ACF622400CD7A11 /* CHMBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				2CABA39F2ACF622400CD7A11 /* Configuration */,
+				2CABA3A22ACF622400CD7A11 /* CHMBackgroundView.swift */,
+				2CABA3A32ACF622400CD7A11 /* CHMBackgroundView+Preview.swift */,
+			);
+			path = CHMBackgroundView;
+			sourceTree = "<group>";
+		};
+		2CABA39F2ACF622400CD7A11 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CABA3A12ACF622400CD7A11 /* CHMBackgroundView+Configuration.swift */,
+				2CABA3A02ACF622400CD7A11 /* CHMBackgroundView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CABA3A82ACF63D100CD7A11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E548F14A2B5C34D10089D2F8 /* SwiftUI */,
+				2CABA3AD2ACF693A00CD7A11 /* Delay.swift */,
+				2C58FF462AD0A3AB005473C6 /* UIKit */,
+				2CABA3AE2ACF693A00CD7A11 /* Foundation */,
+				2CABA3AB2ACF693A00CD7A11 /* UI */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CABA3AB2ACF693A00CD7A11 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CA4BF062B000CA600EEF230 /* CGFloat+Extenstions.swift */,
+				2CABA3AC2ACF693A00CD7A11 /* CGSize+Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2CABA3AE2ACF693A00CD7A11 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2CABA3A92ACF63ED00CD7A11 /* NSObjectProtocol+Extensions.swift */,
+				2CABA3AF2ACF693A00CD7A11 /* String+Extensions.swift */,
+				2CABA3B12ACF693A00CD7A11 /* Optional+Extensions.swift */,
+				2CABA3B22ACF693A00CD7A11 /* URL+Extensions.swift */,
+				2C58FF402AD09D03005473C6 /* Dictionary+Extensions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2CBEA4142AF962A100EA0624 /* CHMProductCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				2CBEA4152AF962A100EA0624 /* Configuration */,
+				2CBEA4182AF962A100EA0624 /* CHMProductCarouselView.swift */,
+				2C7331E32AF8314300454680 /* CHMProductImageCell.swift */,
+				2CBEA4192AF962A100EA0624 /* CHMProductCarouselView+Preview.swift */,
+			);
+			path = CHMProductCarouselView;
+			sourceTree = "<group>";
+		};
+		2CBEA4152AF962A100EA0624 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CBEA4162AF962A100EA0624 /* CHMProductCarouselView+Defaults.swift */,
+				2C24DB432AFD82F300DA0A46 /* CHMProductCarouselView+HandlerConfiguration.swift */,
+				2CBEA4172AF962A100EA0624 /* CHMProductCarouselView+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CC880692AF8B08000636362 /* CHMCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				2CC8806A2AF8B08000636362 /* Configuration */,
+				2CC8806D2AF8B08000636362 /* CHMCategoryView+Preview.swift */,
+				2CC8806E2AF8B08000636362 /* CHMCategoryView.swift */,
+			);
+			path = CHMCategoryView;
+			sourceTree = "<group>";
+		};
+		2CC8806A2AF8B08000636362 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CC8806B2AF8B08000636362 /* CHMCategoryView+Defaults.swift */,
+				2CC8806C2AF8B08000636362 /* CHMCategoryView+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CDCAD112AFFF7E400EBF6E5 /* CHMAddingСakeView */ = {
+			isa = PBXGroup;
+			children = (
+				2CDCAD122AFFF7E400EBF6E5 /* Configuration */,
+				2CDCAD152AFFF7E400EBF6E5 /* CHMAddingСakeView+Preview.swift */,
+				2CDCAD162AFFF7E400EBF6E5 /* CHMAddingСakeView.swift */,
+			);
+			path = "CHMAddingСakeView";
+			sourceTree = "<group>";
+		};
+		2CDCAD122AFFF7E400EBF6E5 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CDCAD132AFFF7E400EBF6E5 /* CHMAddingСakeView+Defaults.swift */,
+				2CDCAD142AFFF7E400EBF6E5 /* CHMAddingСakeView+Configuration.swift */,
+				2C794CA72B005C2F003E5AAE /* CHMAddingCakeView+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CDDEDDB2B1BB5DB006752DD /* CHMProfileButtonsBlock */ = {
+			isa = PBXGroup;
+			children = (
+				2CDDEDDD2B1BB5DB006752DD /* Configuration */,
+				2CDDEDDC2B1BB5DB006752DD /* CHMProfileButtonsBlock.swift */,
+				2CDDEDE02B1BB5DB006752DD /* CHMProfileButtonsBlock+Preview.swift */,
+			);
+			path = CHMProfileButtonsBlock;
+			sourceTree = "<group>";
+		};
+		2CDDEDDD2B1BB5DB006752DD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CDDEDDE2B1BB5DB006752DD /* CHMProfileButtonsBlock+Defaults.swift */,
+				2CDDEDDF2B1BB5DB006752DD /* CHMProfileButtonsBlock+Configuration.swift */,
+				2CA7EC672B1BC749006BAB5F /* CHMProfileButtonsBlock+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CE1F0842B229086000FB7DB /* CHMIconLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1F0862B229086000FB7DB /* Configuration */,
+				2CE1F0852B229086000FB7DB /* CHMIconLabel.swift */,
+				2CE1F0892B229086000FB7DB /* CHMIconLabel+Preview.swift */,
+			);
+			path = CHMIconLabel;
+			sourceTree = "<group>";
+		};
+		2CE1F0862B229086000FB7DB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1F0872B229086000FB7DB /* CHMIconLabel+Configuration.swift */,
+				2CE1F0882B229086000FB7DB /* CHMIconLabel+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CE1F0902B2290FF000FB7DB /* CHMIcon */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1F0912B2290FF000FB7DB /* Configuration */,
+				2CE1F0942B2290FF000FB7DB /* CHMIcon+Preview.swift */,
+				2CE1F0952B2290FF000FB7DB /* CHMIcon.swift */,
+			);
+			name = CHMIcon;
+			path = CHMUIKIT/Sources/Components/UIKit/CHMIcon;
+			sourceTree = SOURCE_ROOT;
+		};
+		2CE1F0912B2290FF000FB7DB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1F0922B2290FF000FB7DB /* CHMIcon+Configuration.swift */,
+				2CE1F0932B2290FF000FB7DB /* CHMIcon+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CEAC1E42AE5E6A900547DDE /* CHMLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2CEAC1E52AE5E6A900547DDE /* Configuration */,
+				2CEAC1E82AE5E6A900547DDE /* CHMLabel+Preview.swift */,
+				2CEAC1E92AE5E6A900547DDE /* CHMLabel.swift */,
+			);
+			path = CHMLabel;
+			sourceTree = "<group>";
+		};
+		2CEAC1E52AE5E6A900547DDE /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CEAC1E62AE5E6A900547DDE /* CHMLabel+Defaults.swift */,
+				2CEAC1E72AE5E6A900547DDE /* CHMLabel+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CEFEF672B1B3EC00098D236 /* CHMAvatarView */ = {
+			isa = PBXGroup;
+			children = (
+				2CEFEF682B1B3EC00098D236 /* Configuration */,
+				2CEFEF6B2B1B3EC00098D236 /* CHMAvatarView.swift */,
+				2CEFEF6C2B1B3EC00098D236 /* CHMAvatarView+Preview.swift */,
+			);
+			path = CHMAvatarView;
+			sourceTree = "<group>";
+		};
+		2CEFEF682B1B3EC00098D236 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CEFEF6A2B1B3EC00098D236 /* CHMAvatarView+Configuration.swift */,
+				2CEFEF692B1B3EC00098D236 /* CHMAvatarView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2CEFEF732B1B4FE90098D236 /* CHMProfileTopView */ = {
+			isa = PBXGroup;
+			children = (
+				2CEFEF742B1B4FE90098D236 /* Configuration */,
+				2CEFEF782B1B4FE90098D236 /* CHMProfileTopView.swift */,
+				2CEFEF772B1B4FE90098D236 /* CHMProfileTopView+Preview.swift */,
+			);
+			path = CHMProfileTopView;
+			sourceTree = "<group>";
+		};
+		2CEFEF742B1B4FE90098D236 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2CEFEF752B1B4FE90098D236 /* CHMProfileTopView+Configuration.swift */,
+				2CEFEF762B1B4FE90098D236 /* CHMProfileTopView+Defaults.swift */,
+				2CEFEF7D2B1B5D850098D236 /* CHMProfileTopView+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E533A8242B6C326800759D49 /* CHMProductUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				E533A8252B6C326800759D49 /* Configuration */,
+				E533A8282B6C326800759D49 /* CHMProductUIButton.swift */,
+				E533A8292B6C326800759D49 /* CHMProductUIButton+Preview.swift */,
+			);
+			path = CHMProductUIButton;
+			sourceTree = "<group>";
+		};
+		E533A8252B6C326800759D49 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E533A8262B6C326800759D49 /* CHMProductUIButton+Defaults.swift */,
+				E533A8272B6C326800759D49 /* CHMProductUIButton+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E548F11A2B5C046D0089D2F8 /* CHMNewProductCard */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1352B5C17870089D2F8 /* Configuration */,
+				E548F11B2B5C048F0089D2F8 /* CHMNewProductCard.swift */,
+				E548F13A2B5C17E10089D2F8 /* CHMNewProductCard+Preview.swift */,
+			);
+			path = CHMNewProductCard;
+			sourceTree = "<group>";
+		};
+		E548F11D2B5C04DF0089D2F8 /* CHMBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1222B5C09170089D2F8 /* Configuration */,
+				E548F11E2B5C04F60089D2F8 /* CHMBadgeView.swift */,
+				E548F1252B5C0B4A0089D2F8 /* CHMBadgeView+Preview.swift */,
+			);
+			path = CHMBadgeView;
+			sourceTree = "<group>";
+		};
+		E548F1222B5C09170089D2F8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1202B5C08FA0089D2F8 /* CHMBadgeView+Configuration.swift */,
+				E548F1232B5C092F0089D2F8 /* CHMBadgeView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E548F1292B5C13A90089D2F8 /* MKRImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E548F12A2B5C13A90089D2F8 /* Configuration */,
+				E548F12D2B5C13A90089D2F8 /* MKRImageView+Preview.swift */,
+				E548F12E2B5C13A90089D2F8 /* MKRImageView.swift */,
+			);
+			path = MKRImageView;
+			sourceTree = "<group>";
+		};
+		E548F12A2B5C13A90089D2F8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E548F12B2B5C13A90089D2F8 /* MKRImageView+Configuration.swift */,
+				E548F12C2B5C13A90089D2F8 /* MKRImageView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E548F1352B5C17870089D2F8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1362B5C17960089D2F8 /* CHMNewProductCard+Configuration.swift */,
+				E548F1382B5C17AD0089D2F8 /* CHMNewProductCard+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E548F13E2B5C25330089D2F8 /* CHMStarsView */ = {
+			isa = PBXGroup;
+			children = (
+				E548F13F2B5C25330089D2F8 /* Configuration */,
+				E548F1422B5C25330089D2F8 /* CHMStarsView.swift */,
+				E548F1432B5C25330089D2F8 /* CHMStarsView+Preview.swift */,
+			);
+			path = CHMStarsView;
+			sourceTree = "<group>";
+		};
+		E548F13F2B5C25330089D2F8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1402B5C25330089D2F8 /* CHMStarsView+Defaults.swift */,
+				E548F1412B5C25330089D2F8 /* CHMStarsView+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E548F1482B5C2C4D0089D2F8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E54733362B6CA6310081C5F9 /* CHMUIShimmeringView.swift */,
+				E5E7B3AD2B6C1D0A007EB684 /* CHMCardBadge */,
+				E5925EFE2B6ACDA100EEAE8D /* CHMReviewStarts */,
+				2CBEA4142AF962A100EA0624 /* CHMProductCarouselView */,
+				2CC880692AF8B08000636362 /* CHMCategoryView */,
+				2C7331D72AF829E200454680 /* CHMProductCard */,
+				2C3116272B1B8CD700FC63BD /* CHMIconTextView */,
+				2CE1F0842B229086000FB7DB /* CHMIconLabel */,
+				2CEFEF672B1B3EC00098D236 /* CHMAvatarView */,
+				2CEFEF732B1B4FE90098D236 /* CHMProfileTopView */,
+				2CA4BF0C2B00174400EEF230 /* CHMPlusButton */,
+				2CE1F0902B2290FF000FB7DB /* CHMIcon */,
+				2C07C0052AD4D2D400ECF210 /* CommonConfigurations */,
+				2CDCAD112AFFF7E400EBF6E5 /* CHMAddingСakeView */,
+				2CDDEDDB2B1BB5DB006752DD /* CHMProfileButtonsBlock */,
+				2C58FF312AD086DD005473C6 /* CHMButton */,
+				2CABA39E2ACF622400CD7A11 /* CHMBackgroundView */,
+				2CEAC1E42AE5E6A900547DDE /* CHMLabel */,
+				E533A8242B6C326800759D49 /* CHMProductUIButton */,
+				E56CACA82B6AAE6800CAE74F /* CHMMainProductCard */,
+				2C07BFFB2AD4C2CB00ECF210 /* CHMImageView */,
+				E5BA9D912B6AD8CA00DDE639 /* CHMShimmeringView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E548F1492B5C2C520089D2F8 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				E5F882252B64556F00A2C716 /* CHMPicker */,
+				E5F882162B6450E500A2C716 /* Shimmering */,
+				E548F14F2B5C36D20089D2F8 /* CHMProductButton */,
+				E548F11D2B5C04DF0089D2F8 /* CHMBadgeView */,
+				E5F882192B6452E900A2C716 /* CHMProductDescriptionView */,
+				E5EEBD752B653E1A00F9C20E /* CHMRatingReviewsView */,
+				E548F13E2B5C25330089D2F8 /* CHMStarsView */,
+				E5B299A52B64AFF90028ADB4 /* CHMNewCategoryView */,
+				E5B2998B2B64A82C0028ADB4 /* CHMCommentView */,
+				E548F11A2B5C046D0089D2F8 /* CHMNewProductCard */,
+				E565C1BD2B668C4700E3FC58 /* CHMBigBannerView */,
+				E548F1292B5C13A90089D2F8 /* MKRImageView */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		E548F14A2B5C34D10089D2F8 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				E548F14B2B5C34E10089D2F8 /* Color+Extenstions.swift */,
+				E548F1592B5C37D70089D2F8 /* View+Extentions.swift */,
+				E5F8822F2B645D6C00A2C716 /* Color+Addition.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		E548F14F2B5C36D20089D2F8 /* CHMProductButton */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1502B5C36D20089D2F8 /* Configuration */,
+				E548F1532B5C36D20089D2F8 /* CHMProductButton+Preview.swift */,
+				E548F1542B5C36D20089D2F8 /* CHMProductButton.swift */,
+			);
+			path = CHMProductButton;
+			sourceTree = "<group>";
+		};
+		E548F1502B5C36D20089D2F8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1512B5C36D20089D2F8 /* CHMProductButton+Configuration.swift */,
+				E548F1522B5C36D20089D2F8 /* CHMProductButton+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E565C1BD2B668C4700E3FC58 /* CHMBigBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				E565C1BE2B668C4700E3FC58 /* Configuration */,
+				E565C1C12B668C4700E3FC58 /* CHMBigBannerView.swift */,
+				E565C1C22B668C4700E3FC58 /* CHMBigBannerView+Preview.swift */,
+			);
+			path = CHMBigBannerView;
+			sourceTree = "<group>";
+		};
+		E565C1BE2B668C4700E3FC58 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E565C1BF2B668C4700E3FC58 /* CHMBigBannerView+Configuration.swift */,
+				E565C1C02B668C4700E3FC58 /* CHMBigBannerView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E56CACA82B6AAE6800CAE74F /* CHMMainProductCard */ = {
+			isa = PBXGroup;
+			children = (
+				E56CACA92B6AAE6800CAE74F /* Configuration */,
+				E56CACAC2B6AAE6800CAE74F /* CHMMainProductCard.swift */,
+				E56CACAD2B6AAE6800CAE74F /* CHMMainProductCard+Preview.swift */,
+			);
+			name = CHMMainProductCard;
+			path = CHMUIKIT/Sources/Components/UIKit/CHMMainProductCard;
+			sourceTree = SOURCE_ROOT;
+		};
+		E56CACA92B6AAE6800CAE74F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E56CACAA2B6AAE6800CAE74F /* CHMMainProductCard+Defaults.swift */,
+				E56CACAB2B6AAE6800CAE74F /* CHMMainProductCard+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5925EFE2B6ACDA100EEAE8D /* CHMReviewStarts */ = {
+			isa = PBXGroup;
+			children = (
+				E5925EFF2B6ACDA100EEAE8D /* Configuration */,
+				E5925F022B6ACDA100EEAE8D /* CHMReviewStarts+Preview.swift */,
+				E5925F032B6ACDA100EEAE8D /* CHMReviewStars.swift */,
+			);
+			path = CHMReviewStarts;
+			sourceTree = "<group>";
+		};
+		E5925EFF2B6ACDA100EEAE8D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5925F002B6ACDA100EEAE8D /* CHMReviewStarts+Defaults.swift */,
+				E5925F012B6ACDA100EEAE8D /* CHMReviewStarts+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5B2998B2B64A82C0028ADB4 /* CHMCommentView */ = {
+			isa = PBXGroup;
+			children = (
+				E5B2998D2B64A82C0028ADB4 /* Configuration */,
+				E5B2998C2B64A82C0028ADB4 /* CHMCommentView.swift */,
+				E5B299902B64A82C0028ADB4 /* CHMCommentView+Preview.swift */,
+			);
+			path = CHMCommentView;
+			sourceTree = "<group>";
+		};
+		E5B2998D2B64A82C0028ADB4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5B2998E2B64A82C0028ADB4 /* CHMCommentView+Configuration.swift */,
+				E5B2998F2B64A82C0028ADB4 /* CHMCommentView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5B299A52B64AFF90028ADB4 /* CHMNewCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				E5B299A62B64AFF90028ADB4 /* Configuration */,
+				E5B299A92B64AFF90028ADB4 /* CHMNewCategoryView.swift */,
+				E5B299AA2B64AFF90028ADB4 /* CHMNewCategoryView+Preview.swift */,
+			);
+			path = CHMNewCategoryView;
+			sourceTree = "<group>";
+		};
+		E5B299A62B64AFF90028ADB4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5B299A72B64AFF90028ADB4 /* CHMNewCategoryView+Configuration.swift */,
+				E5B299A82B64AFF90028ADB4 /* CHMNewCategoryView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5E7B3AD2B6C1D0A007EB684 /* CHMCardBadge */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7B3AE2B6C1D0A007EB684 /* Configuration */,
+				E5E7B3B22B6C1D0A007EB684 /* CHMCardBadge.swift */,
+				E5E7B3B12B6C1D0A007EB684 /* CHMCardBadge+Preview.swift */,
+			);
+			path = CHMCardBadge;
+			sourceTree = "<group>";
+		};
+		E5E7B3AE2B6C1D0A007EB684 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7B3AF2B6C1D0A007EB684 /* CHMCardBadge+Defaults.swift */,
+				E5E7B3B02B6C1D0A007EB684 /* CHMCardBadge+Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5EEBD752B653E1A00F9C20E /* CHMRatingReviewsView */ = {
+			isa = PBXGroup;
+			children = (
+				E5EEBD762B653E1A00F9C20E /* Configuration */,
+				E5EEBD792B653E1A00F9C20E /* CHMRatingReviewsView+Preview.swift */,
+				E5EEBD7A2B653E1A00F9C20E /* CHMRatingReviewsView.swift */,
+			);
+			path = CHMRatingReviewsView;
+			sourceTree = "<group>";
+		};
+		E5EEBD762B653E1A00F9C20E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5EEBD772B653E1A00F9C20E /* CHMRatingReviewsView+Configuration.swift */,
+				E5EEBD782B653E1A00F9C20E /* CHMRatingReviewsView+Defaults.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5F882162B6450E500A2C716 /* Shimmering */ = {
+			isa = PBXGroup;
+			children = (
+				E548F1332B5C158E0089D2F8 /* ShimmeringView.swift */,
+			);
+			path = Shimmering;
+			sourceTree = "<group>";
+		};
+		E5F882192B6452E900A2C716 /* CHMProductDescriptionView */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8821A2B6452E900A2C716 /* Configuration */,
+				E5F8821D2B6452E900A2C716 /* CHMProductDescriptionView.swift */,
+				E5F8821E2B6452E900A2C716 /* CHMProductDescriptionView+Preview.swift */,
+			);
+			path = CHMProductDescriptionView;
+			sourceTree = "<group>";
+		};
+		E5F8821A2B6452E900A2C716 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8821B2B6452E900A2C716 /* CHMProductDescriptionView+Defaults.swift */,
+				E5F8821C2B6452E900A2C716 /* CHMProductDescriptionView+Configuration.swift */,
+				E5F882312B64758200A2C716 /* CHMProductDescriptionView+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E5F882252B64556F00A2C716 /* CHMPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E5F882262B64556F00A2C716 /* Configuration */,
+				E5F8822A2B64556F00A2C716 /* CHMPicker.swift */,
+				E5F882292B64556F00A2C716 /* CHMPicker+Preview.swift */,
+			);
+			path = CHMPicker;
+			sourceTree = "<group>";
+		};
+		E5F882262B64556F00A2C716 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E5F882272B64556F00A2C716 /* CHMPicker+Defaults.swift */,
+				E5F882282B64556F00A2C716 /* CHMPicker+Configuration.swift */,
+				E5F882332B64793D00A2C716 /* CHMPicker+HandlerConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C4C164E2ACE2781002620E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4C16592ACE2781002620E3 /* CHMUIKIT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C4C16522ACE2781002620E3 /* CHMUIKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4C165C2ACE2781002620E3 /* Build configuration list for PBXNativeTarget "CHMUIKIT" */;
+			buildPhases = (
+				2C4C164E2ACE2781002620E3 /* Headers */,
+				2C4C164F2ACE2781002620E3 /* Sources */,
+				2C4C16502ACE2781002620E3 /* Frameworks */,
+				2C4C16512ACE2781002620E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHMUIKIT;
+			productName = CHMUIKIT;
+			productReference = 2C4C16532ACE2781002620E3 /* CHMUIKIT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4C164A2ACE2781002620E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2C4C16522ACE2781002620E3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2C4C164D2ACE2781002620E3 /* Build configuration list for PBXProject "CHMUIKIT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4C16492ACE2781002620E3;
+			productRefGroup = 2C4C16542ACE2781002620E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4C16522ACE2781002620E3 /* CHMUIKIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4C16512ACE2781002620E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4C16612ACE294D002620E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4C164F2ACE2781002620E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CABA3B42ACF693A00CD7A11 /* Delay.swift in Sources */,
+				2CC8806F2AF8B08000636362 /* CHMCategoryView+Defaults.swift in Sources */,
+				2CE1F0982B2290FF000FB7DB /* CHMIcon+Preview.swift in Sources */,
+				2CE1F08D2B229086000FB7DB /* CHMIconLabel+Preview.swift in Sources */,
+				2C5AD3D12AE87104001A98E0 /* UIColor+Additions.swift in Sources */,
+				2CEAC1ED2AE5E6A900547DDE /* CHMLabel.swift in Sources */,
+				2C7331DD2AF829E200454680 /* CHMProductCard+Configuration.swift in Sources */,
+				2C31162E2B1B8CD700FC63BD /* CHMIconTextView+Defaults.swift in Sources */,
+				2CE1F08C2B229086000FB7DB /* CHMIconLabel+Defaults.swift in Sources */,
+				2C7331E02AF829E200454680 /* CHMProductCard.swift in Sources */,
+				2C58FF392AD086DD005473C6 /* CHMButton+Preview.swift in Sources */,
+				E533A82B2B6C326800759D49 /* CHMProductUIButton+Configuration.swift in Sources */,
+				E548F1372B5C17960089D2F8 /* CHMNewProductCard+Configuration.swift in Sources */,
+				2C4E7E592B1B995D0025D876 /* UIImage+Additions.swift in Sources */,
+				E5F8822E2B64556F00A2C716 /* CHMPicker.swift in Sources */,
+				2CABA3A52ACF622400CD7A11 /* CHMBackgroundView+Configuration.swift in Sources */,
+				2CEFEF6D2B1B3EC00098D236 /* CHMAvatarView+Defaults.swift in Sources */,
+				E5E7B3B62B6C1D0A007EB684 /* CHMCardBadge.swift in Sources */,
+				2CABA3A72ACF622400CD7A11 /* CHMBackgroundView+Preview.swift in Sources */,
+				E5F882212B6452E900A2C716 /* CHMProductDescriptionView.swift in Sources */,
+				2CEAC1EA2AE5E6A900547DDE /* CHMLabel+Defaults.swift in Sources */,
+				2CA4BF132B00174400EEF230 /* CHMPlusButton+Defaults.swift in Sources */,
+				E548F1452B5C25330089D2F8 /* CHMStarsView+Configuration.swift in Sources */,
+				E5F8822B2B64556F00A2C716 /* CHMPicker+Defaults.swift in Sources */,
+				2CABA3B52ACF693A00CD7A11 /* String+Extensions.swift in Sources */,
+				2C58FF4E2AD0AC47005473C6 /* Typealias.swift in Sources */,
+				E533A82C2B6C326800759D49 /* CHMProductUIButton.swift in Sources */,
+				2CDCAD172AFFF7E400EBF6E5 /* CHMAddingСakeView+Defaults.swift in Sources */,
+				E5EEBD7E2B653E1A00F9C20E /* CHMRatingReviewsView.swift in Sources */,
+				E5E7B3B32B6C1D0A007EB684 /* CHMCardBadge+Defaults.swift in Sources */,
+				E548F14C2B5C34E10089D2F8 /* Color+Extenstions.swift in Sources */,
+				2CBEA41A2AF962A100EA0624 /* CHMProductCarouselView+Defaults.swift in Sources */,
+				2CA4BF122B00174400EEF230 /* CHMPlusButton+Configuration.swift in Sources */,
+				E5925F042B6ACDA100EEAE8D /* CHMReviewStarts+Defaults.swift in Sources */,
+				2C07C0022AD4C2CB00ECF210 /* CHMImageView+Configuration.swift in Sources */,
+				2CABA3AA2ACF63ED00CD7A11 /* NSObjectProtocol+Extensions.swift in Sources */,
+				2C326D462B1691CE006C9990 /* Modifiy.swift in Sources */,
+				E548F1302B5C13A90089D2F8 /* MKRImageView+Defaults.swift in Sources */,
+				2CE1F08A2B229086000FB7DB /* CHMIconLabel.swift in Sources */,
+				2CA4BF152B00174400EEF230 /* CHMPlusButton+Preview.swift in Sources */,
+				2CABA3B82ACF693A00CD7A11 /* URL+Extensions.swift in Sources */,
+				2CABA3A62ACF622400CD7A11 /* CHMBackgroundView.swift in Sources */,
+				2C58FF432AD09E25005473C6 /* LabelConfiguration.swift in Sources */,
+				E548F13B2B5C17E10089D2F8 /* CHMNewProductCard+Preview.swift in Sources */,
+				E5B299AC2B64AFF90028ADB4 /* CHMNewCategoryView+Defaults.swift in Sources */,
+				2CE1F09B2B229E92000FB7DB /* Configurable.swift in Sources */,
+				2C58FF452AD0A138005473C6 /* UIView+Extentions.swift in Sources */,
+				E5925F062B6ACDA100EEAE8D /* CHMReviewStarts+Preview.swift in Sources */,
+				E56CACAE2B6AAE6800CAE74F /* CHMMainProductCard+Defaults.swift in Sources */,
+				E548F1552B5C36D20089D2F8 /* CHMProductButton+Configuration.swift in Sources */,
+				2CEFEF7E2B1B5D850098D236 /* CHMProfileTopView+HandlerConfiguration.swift in Sources */,
+				E548F1312B5C13A90089D2F8 /* MKRImageView+Preview.swift in Sources */,
+				2C326D472B1691CE006C9990 /* SwiftUIPreview.swift in Sources */,
+				2CEFEF792B1B4FE90098D236 /* CHMProfileTopView+Configuration.swift in Sources */,
+				2C58FF372AD086DD005473C6 /* CHMButton+Configuration.swift in Sources */,
+				2CABA3A42ACF622400CD7A11 /* CHMBackgroundView+Defaults.swift in Sources */,
+				E548F1342B5C158E0089D2F8 /* ShimmeringView.swift in Sources */,
+				2CA7EC682B1BC749006BAB5F /* CHMProfileButtonsBlock+HandlerConfiguration.swift in Sources */,
+				E5E7B3B52B6C1D0A007EB684 /* CHMCardBadge+Preview.swift in Sources */,
+				E5F8821F2B6452E900A2C716 /* CHMProductDescriptionView+Defaults.swift in Sources */,
+				2C58FF482AD0A3AF005473C6 /* UILabel+Extensions.swift in Sources */,
+				E5B299AE2B64AFF90028ADB4 /* CHMNewCategoryView+Preview.swift in Sources */,
+				2C7331DE2AF829E200454680 /* CHMProductCard+Defaults.swift in Sources */,
+				E5F8822C2B64556F00A2C716 /* CHMPicker+Configuration.swift in Sources */,
+				2CDDEDE12B1BB5DB006752DD /* CHMProfileButtonsBlock.swift in Sources */,
+				2C794CA82B005C2F003E5AAE /* CHMAddingCakeView+HandlerConfiguration.swift in Sources */,
+				2CEFEF6E2B1B3EC00098D236 /* CHMAvatarView+Configuration.swift in Sources */,
+				E5F882322B64758200A2C716 /* CHMProductDescriptionView+HandlerConfiguration.swift in Sources */,
+				E548F1242B5C092F0089D2F8 /* CHMBadgeView+Defaults.swift in Sources */,
+				2C2C00042B000A0A0010BC27 /* UIImage+Extenstions.swift in Sources */,
+				2CEFEF7C2B1B4FE90098D236 /* CHMProfileTopView.swift in Sources */,
+				2C07BFF82AD4BBD400ECF210 /* CHMThroughDataImageResolver.swift in Sources */,
+				2C07C0012AD4C2CB00ECF210 /* CHMImageView+Defaults.swift in Sources */,
+				2CDDEDE22B1BB5DB006752DD /* CHMProfileButtonsBlock+Defaults.swift in Sources */,
+				2CC880722AF8B08000636362 /* CHMCategoryView.swift in Sources */,
+				2CEAC1EB2AE5E6A900547DDE /* CHMLabel+Configuration.swift in Sources */,
+				2CABA3B72ACF693A00CD7A11 /* Optional+Extensions.swift in Sources */,
+				2CEAC1EC2AE5E6A900547DDE /* CHMLabel+Preview.swift in Sources */,
+				2CE1F0962B2290FF000FB7DB /* CHMIcon+Configuration.swift in Sources */,
+				E548F1582B5C36D20089D2F8 /* CHMProductButton.swift in Sources */,
+				2CEFEF702B1B3EC00098D236 /* CHMAvatarView+Preview.swift in Sources */,
+				E5F882302B645D6C00A2C716 /* Color+Addition.swift in Sources */,
+				2CA4BF072B000CA600EEF230 /* CGFloat+Extenstions.swift in Sources */,
+				2CBEA41C2AF962A100EA0624 /* CHMProductCarouselView.swift in Sources */,
+				E533A82D2B6C326800759D49 /* CHMProductUIButton+Preview.swift in Sources */,
+				E5EEBD7B2B653E1A00F9C20E /* CHMRatingReviewsView+Configuration.swift in Sources */,
+				2C31162F2B1B8CD700FC63BD /* CHMIconTextView+Preview.swift in Sources */,
+				E5B299922B64A82C0028ADB4 /* CHMCommentView+Configuration.swift in Sources */,
+				E5B299AB2B64AFF90028ADB4 /* CHMNewCategoryView+Configuration.swift in Sources */,
+				E565C1C32B668C4700E3FC58 /* CHMBigBannerView+Configuration.swift in Sources */,
+				2CDDEDE42B1BB5DB006752DD /* CHMProfileButtonsBlock+Preview.swift in Sources */,
+				E5B299932B64A82C0028ADB4 /* CHMCommentView+Defaults.swift in Sources */,
+				2C58FF4C2AD0AC1B005473C6 /* ClearConfigurationProtocol.swift in Sources */,
+				2C58FF412AD09D03005473C6 /* Dictionary+Extensions.swift in Sources */,
+				2C6BFDAB2AF96B9900AE73F9 /* UICollectionView+Extenstions.swift in Sources */,
+				E548F1212B5C08FA0089D2F8 /* CHMBadgeView+Configuration.swift in Sources */,
+				E548F1322B5C13A90089D2F8 /* MKRImageView.swift in Sources */,
+				2CEFEF6F2B1B3EC00098D236 /* CHMAvatarView.swift in Sources */,
+				E56CACB12B6AAE6800CAE74F /* CHMMainProductCard+Preview.swift in Sources */,
+				E565C1C62B668C4700E3FC58 /* CHMBigBannerView+Preview.swift in Sources */,
+				2C320E0E2B179B6500CF1432 /* UIColors+Preview.swift in Sources */,
+				E5925F072B6ACDA100EEAE8D /* CHMReviewStars.swift in Sources */,
+				E5F8822D2B64556F00A2C716 /* CHMPicker+Preview.swift in Sources */,
+				E5F882222B6452E900A2C716 /* CHMProductDescriptionView+Preview.swift in Sources */,
+				2CAF2FC42AFD893C0027F266 /* CHMProductCard+HandlerConfiguration.swift in Sources */,
+				2C5F23852AD4D33000739D95 /* ImageConfiguration.swift in Sources */,
+				E548F1442B5C25330089D2F8 /* CHMStarsView+Defaults.swift in Sources */,
+				2CBEA41D2AF962A100EA0624 /* CHMProductCarouselView+Preview.swift in Sources */,
+				2C4C16582ACE2781002620E3 /* CHMUIKIT.docc in Sources */,
+				E5E7B3B42B6C1D0A007EB684 /* CHMCardBadge+Configuration.swift in Sources */,
+				E548F1462B5C25330089D2F8 /* CHMStarsView.swift in Sources */,
+				2C58FF4A2AD0ABEE005473C6 /* CHMButton+HandlerConfiguration.swift in Sources */,
+				E5EEBD7C2B653E1A00F9C20E /* CHMRatingReviewsView+Defaults.swift in Sources */,
+				2C5AD3D52AE8734F001A98E0 /* UIColor+Extenstions.swift in Sources */,
+				2CE1F0972B2290FF000FB7DB /* CHMIcon+Defaults.swift in Sources */,
+				2CC880702AF8B08000636362 /* CHMCategoryView+Configuration.swift in Sources */,
+				2C07C0032AD4C2CB00ECF210 /* CHMImageView.swift in Sources */,
+				E5925F052B6ACDA100EEAE8D /* CHMReviewStarts+Configuration.swift in Sources */,
+				2CDCAD1A2AFFF7E400EBF6E5 /* CHMAddingСakeView.swift in Sources */,
+				2CABA3B32ACF693A00CD7A11 /* CGSize+Extensions.swift in Sources */,
+				E548F15A2B5C37D70089D2F8 /* View+Extentions.swift in Sources */,
+				E533A82A2B6C326800759D49 /* CHMProductUIButton+Defaults.swift in Sources */,
+				E548F12F2B5C13A90089D2F8 /* MKRImageView+Configuration.swift in Sources */,
+				2CC7A1E32B00543C001F943A /* Bundle+Extension.swift in Sources */,
+				E5B299912B64A82C0028ADB4 /* CHMCommentView.swift in Sources */,
+				E56CACAF2B6AAE6800CAE74F /* CHMMainProductCard+Configuration.swift in Sources */,
+				2CA7EC662B1BC49D006BAB5F /* CHMIconTextView+HandlerConfiguration.swift in Sources */,
+				2CE1F0992B2290FF000FB7DB /* CHMIcon.swift in Sources */,
+				2CEFEF7A2B1B4FE90098D236 /* CHMProfileTopView+Defaults.swift in Sources */,
+				E54733372B6CA6310081C5F9 /* CHMUIShimmeringView.swift in Sources */,
+				2CDDEDE32B1BB5DB006752DD /* CHMProfileButtonsBlock+Configuration.swift in Sources */,
+				2C58FF3F2AD09C6A005473C6 /* CustomFont.swift in Sources */,
+				E5F882202B6452E900A2C716 /* CHMProductDescriptionView+Configuration.swift in Sources */,
+				2C3116302B1B8CD700FC63BD /* CHMIconTextView.swift in Sources */,
+				E5BA9D922B6AD8CA00DDE639 /* CHMShimmeringView.swift in Sources */,
+				2CAF2C0D2B02EB2C00CA2C2B /* Divider.swift in Sources */,
+				E5EEBD7D2B653E1A00F9C20E /* CHMRatingReviewsView+Preview.swift in Sources */,
+				E548F1262B5C0B4A0089D2F8 /* CHMBadgeView+Preview.swift in Sources */,
+				E565C1C42B668C4700E3FC58 /* CHMBigBannerView+Defaults.swift in Sources */,
+				E5B299AD2B64AFF90028ADB4 /* CHMNewCategoryView.swift in Sources */,
+				2CDCAD192AFFF7E400EBF6E5 /* CHMAddingСakeView+Preview.swift in Sources */,
+				E548F1562B5C36D20089D2F8 /* CHMProductButton+Defaults.swift in Sources */,
+				2C24DB442AFD82F300DA0A46 /* CHMProductCarouselView+HandlerConfiguration.swift in Sources */,
+				E5F882342B64793D00A2C716 /* CHMPicker+HandlerConfiguration.swift in Sources */,
+				2CEFEF7B2B1B4FE90098D236 /* CHMProfileTopView+Preview.swift in Sources */,
+				2C7331E42AF8314300454680 /* CHMProductImageCell.swift in Sources */,
+				2CBEA41B2AF962A100EA0624 /* CHMProductCarouselView+Configuration.swift in Sources */,
+				2C07C0042AD4C2CB00ECF210 /* CHMImageView+Preview.swift in Sources */,
+				E548F1472B5C25330089D2F8 /* CHMStarsView+Preview.swift in Sources */,
+				E548F1572B5C36D20089D2F8 /* CHMProductButton+Preview.swift in Sources */,
+				2C58FF382AD086DD005473C6 /* CHMButton+Defaults.swift in Sources */,
+				E548F1392B5C17AD0089D2F8 /* CHMNewProductCard+Defaults.swift in Sources */,
+				2C31162D2B1B8CD700FC63BD /* CHMIconTextView+Configuration.swift in Sources */,
+				E565C1C52B668C4700E3FC58 /* CHMBigBannerView.swift in Sources */,
+				E548F11C2B5C048F0089D2F8 /* CHMNewProductCard.swift in Sources */,
+				E5B299942B64A82C0028ADB4 /* CHMCommentView+Preview.swift in Sources */,
+				E548F11F2B5C04F60089D2F8 /* CHMBadgeView.swift in Sources */,
+				2CC880712AF8B08000636362 /* CHMCategoryView+Preview.swift in Sources */,
+				2C58FF3A2AD086DD005473C6 /* CHMButton.swift in Sources */,
+				2C7331DF2AF829E200454680 /* CHMProductCard+Preview.swift in Sources */,
+				2CA4BF142B00174400EEF230 /* CHMPlusButton.swift in Sources */,
+				E56CACB02B6AAE6800CAE74F /* CHMMainProductCard.swift in Sources */,
+				2CDCAD182AFFF7E400EBF6E5 /* CHMAddingСakeView+Configuration.swift in Sources */,
+				2CE1F08B2B229086000FB7DB /* CHMIconLabel+Configuration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C4C165A2ACE2781002620E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C4C165B2ACE2781002620E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C4C165D2ACE2781002620E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SKCX3NJ774;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CakesHub.CHMUIKIT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C4C165E2ACE2781002620E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SKCX3NJ774;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CakesHub.CHMUIKIT;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4C164D2ACE2781002620E3 /* Build configuration list for PBXProject "CHMUIKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C165A2ACE2781002620E3 /* Debug */,
+				2C4C165B2ACE2781002620E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4C165C2ACE2781002620E3 /* Build configuration list for PBXNativeTarget "CHMUIKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C165D2ACE2781002620E3 /* Debug */,
+				2C4C165E2ACE2781002620E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C4C164A2ACE2781002620E3 /* Project object */;
+}
